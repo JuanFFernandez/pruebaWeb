@@ -1,0 +1,36 @@
+/*Comentario en CSS*/
+/*
+Código de colores en HTML
+https://htmlcolorcodes.com/es/
+*/
+body {
+    background-color:rgb(38,80,178);
+        /*Color de fondo*/
+    color:rgb(255, 255, 255);
+        /*Color de letras*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 13em;
+
+}
+
+ul.navbar {
+    list-style-type: none;
+        /*Símbolos*/
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+
+ul.navbar li{
+    background: white;
+    color: blue;
+    margin: 0.5em 0 0 0.5em;
+    padding: 1.5em;
+    border-right: 1em solid cyan;
+}
+
+
+
